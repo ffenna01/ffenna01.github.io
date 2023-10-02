@@ -1,0 +1,173 @@
+
+*{ font-family: 'Open Sans', sans-serif;
+ color: black;
+}
+
+h1 {
+ font-family: 'Russo One', sans-serif;
+ color:  rgb(116, 0, 211);
+ widht: 300px;
+ align-items: center;
+ font-size: 3rem;
+ text-align: center;
+ border: 14px solid lightsteelblue;
+}
+
+h2 { 
+ font-size: 2rem;
+ font-family: 'Merriweather', serif;
+ color: darkslateblue;
+}
+
+p {
+ font-size: 25px;
+ color: black;
+}
+
+header { 
+ text-align: center;
+ background-color: rgb(165, 117, 159);
+}
+
+body {
+background-color: rgb(117, 155, 165);
+}
+ 
+ 
+#foto-perfil{ 
+ border: 8px solid lightsteelblue;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ height: 300px;
+ width: 300px;
+}
+
+.container {
+ position: relative;
+ width: 27%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.overlay {
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ height: auto;
+ width: auto;
+ opacity: 0;
+ transition: .5s ease;
+ background-color: darkslateblue;
+}
+
+.container:hover .overlay {
+ opacity: 5;
+}
+
+.text {
+ color: lightgrey;
+ font-size: 27px;
+ position: absolute;
+ top: 90%;
+ left: 47%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+}
+
+.clase-imagen{
+ border: 8px solid lightsteelblue;
+ border-radius: 50%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+nav { 
+ text-align: center;
+ font-size: 30px;
+ color: rgb(55, 0, 255);
+}
+
+.menu {
+ width: 90%;
+ float: left;
+ padding: 15px;
+ border: 1px solid blue;
+}
+
+.main {
+ width: 100%;
+ padding: 20px 20px;
+ position: fixed;
+ align-items: center;
+}
+
+section#Informacion-personal{
+ background-color:aquamarine;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 900px;
+ width: 100%;
+}
+
+section#Experiencia{
+ background-color: pink;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 1400px;
+}
+  
+section#Habilidades{
+ background-color: lightgreen;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 800px;
+}
+section#Contacto{
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.contenedor{
+  background-color:azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#formulario{
+  padding: 60px 120px;
+}
+#formulario button {
+  background:aqua;
+  border: 2px solid blue;
+  width: 80%;
+  font-size: 20px;
+}
+.form-control.falla input {
+  border: 0.3px solid;
+  border-color: red;
+}
+
+.form-control.ok input {
+  border: 0.3px solid;
+  border-color: green;
+}
+
+.form-control p {
+  font-size: small;
+  color: red;
+}
